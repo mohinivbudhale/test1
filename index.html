@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sunrise Sunset Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sunrise Sunset Dashboard</h1>
+        <div id="location-selector">
+            <button id="geolocation-btn">Use Current Location</button>
+            <select id="location-dropdown">
+                <option value="city1">City 1</option>
+                <!-- Add more options as needed -->
+            </select>
+            <input type="text" id="location-search" placeholder="Search for a location">
+            <button id="search-btn">Search</button>
+        </div>
+        
+        <div id="result-container">
+            <!-- Placeholder content or empty reserved space before the user submits the request -->
+        </div>
+        
+        <div id="error-message" class="hidden"></div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
